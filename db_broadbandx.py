@@ -1,4 +1,5 @@
 import pymysql
+# test in here one!
 
 def insert_a_row(**kargs):
     name,idnum,serialnum,prdname,opendate,nettype,rate,realfee,owefee,depositmoney,userstat,addr,discntname1,startdate1,enddate1,discntname2,startdate2,enddate2,discntname3,startdate3,enddate3,discntname4,startdate4,enddate4,discntname5,startdate5,enddate5="","","","",None,"","","","","","","","",None,None,"",None,None,"",None,None,"",None,None,"",None,None
@@ -89,4 +90,5 @@ def is_row_exist(serialnum):
     if results:
         flag = True
     db.close()
+    print("test in here two!")
     return flag
